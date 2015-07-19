@@ -1,7 +1,7 @@
 /*
 Logic behind the code is from http://www.sosmath.com/matrix/coding/coding.html
 
-This code describes how to encrypt a messages using the knowledge of invertible matrices. It is a really simple implementation of the example in the above URL.
+This code describes how to encrypt a messages using the knowledge of invertible matrices. It is called a hill cipher. It is a really simple implementation of the example in the above URL.
 
 If we have a message B, we can put it in a matrix form, and encrypt it using AB. Then we can send this encrypted message AB to anyone. To decrypt/get message B back, we use the following property:
 
